@@ -1,0 +1,147 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #d1ddcb;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.judul {
+  font-size: 28px;
+}
+
+.deskripsi {
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+.wrap {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.menu {
+  overflow: hidden;
+  color: #fff;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #339eae;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #90e0d5; /* Menambahkan border pembatas */
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px 15px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: #90e0d5;
+}
+
+.kalkulator {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.konten {
+  text-align: center;
+  width: 350px; /* Perbesar ukuran div konten */
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.konten img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.konten h1 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.konten label {
+  font-weight: bold;
+  color: #666666;
+}
+
+.hasil {
+  font-weight: bold;
+  color: #333;
+  margin-top: 15px;
+}
+
+.tombol {
+  background-color: #339eae;
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.tombol:hover {
+  background-color: #90e0d5;
+}
+
+.footer {
+  text-align: center;
+  color: grey;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    border-radius: 0;
+  }
+
+  .menu a {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .kalkulator {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .konten {
+    width: 90%; /* Perbesar ukuran div konten di layar kecil */
+  }
+}
